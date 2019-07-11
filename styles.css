@@ -1,0 +1,132 @@
+html{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-style: double;
+  border-width: thick;
+  
+}
+h1{
+color: green;
+text-align: center;
+font-size: 100px;
+
+
+}
+h2{
+    color:steelblue;
+    text-align: center;
+
+}
+
+body{
+    background-color: springgreen;
+    margin: 200px;
+    padding: 200px;
+    font-family: 'Lato', sans-serif;
+    display: inline;
+}
+figure{
+    width: 250px;
+    
+}
+img.photo{
+    width: 500px;
+    
+}
+video{
+    width: 500px;
+}
+
+div{
+    border-style: dotted;
+    border-width: medium;
+
+}
+.zero{
+    padding:80px;
+}
+.one{
+    padding:80px;
+
+}
+.two{
+    padding:80px;
+
+}
+.three{
+    padding:80px;
+
+}
+.four{
+    padding:80px;
+
+}
+
+#a, #c, #d, #e, #f, #h{
+    transform: rotate(90deg);
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+#a{
+    margin: 100px;
+    padding: 100px;
+}
+#b{
+    margin: 100px;
+    padding: 100px;
+}
+#c{
+    margin: 100px;
+    padding: 100px;
+}
+#d{
+    margin: 100px;
+    padding: 100px;
+}
+#e{
+    margin: 100px;
+    padding: 100px;
+}
+#f{
+    margin: 100px;
+    padding: 100px;
+}
+#g{
+    margin: 100px;
+    padding: 100px;
+}
+#h{
+    margin: 100px;
+    padding: 100px;
+}
+#i{
+    margin: 100px;
+    padding: 100px;
+}
+#j{
+    margin: 100px;
+    padding: 100px;
+}
+#k{
+    margin: 100px;
+    padding: 100px;
+}
+Video{
+    margin: 100px;
+    padding:100px;
+    align-content: center;
+}
+p{
+    text-align: center
+}
