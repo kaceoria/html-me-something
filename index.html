@@ -2,13 +2,34 @@
 <html>
     <head>
         <title>Kaycee's Dance Adventures</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <header>
             <h1>My Trip to Japan</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#zero">Day Zero</a>
+                    </li>
+                    <li>
+                        <a href="#one">Day One</a> 
+                    </li>
+                    <li>
+                        <a href="#two">Day Two</a>   
+                    </li>
+                    <li>
+                        <a href="#three">Day Three</a>
+                    </li>
+                    <li>
+                        <a href="#four">Day Four</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
-            <div>
+            <div class="zero">
+            <a name="zero"></a>
                 <h2>Day Zero</h2>
                     <p>"From St. Louis to Toronto, and Toronto to Tokyo, my journey to Japan began.
                 The first flight to Toronto was only around two hours, but the flight to Tokyo
@@ -17,10 +38,11 @@
                 We left for Tokyo at 10pm and arrived the next day at 4pm."  
                      </p>
                 <figure>
-                    <img src="images/Tokyo plane pic.JPG" alt="Plane to Tokyo">
+                    <img id="a" src="images/Tokyo plane pic.JPG" alt="Plane to Tokyo" class="photo">
                 </figure>
             </div>
-            <div>
+            <div class="one">
+            <a name="one"></a>
                 <h2>Day One</h2>
                     <p>"On our first day in Toyko, we decided to explore the area around Central Tokyo. 
                 This is where the main train station is located in Tokyo. We were able to take 
@@ -31,12 +53,13 @@
                 was a five hour wait to get inside, so instead we walked to get food from a street vendor. 
                      </p>
                 <figure>
-                    <img src="images/imperial-palace.JPG" alt="imperial Palace">
-                     <img src="images/starbucks.JPG" alt="starbucks">
-                     <img src="images/long-fries.JPG" alt="fries">
+                    <img id="b" src="images/imperial-palace.JPG" alt="imperial Palace" class="photo">
+                     <img id="c" src="images/starbucks.JPG" alt="starbucks" class="photo">
+                     <img id="d" src="images/long-fries.JPG" alt="fries" class="photo">
                 </figure>
             </div>
-            <div>
+            <div class="two">
+            <a name="two"></a>
                 <h2>Day Two</h2>
                  <p>"On Day Two in Tokyo we went to <a href="https://borderless.teamlab.art" target="_blank">The Mori Digital Arts Museum</a>. 
                 Although we reserved tickets in advance, we still had to wait in a line that was so long it wrapped around the enire building
@@ -46,11 +69,12 @@
                 projector that looked like a digital aquarium."  
                 </p>
                 <figure>
-                    <img src="images/sunflowers-mori.JPG" alt="sunflowers">
-                    <img src="images/lights-mori.JPG" alt="digital lights"> 
+                    <img id="e" src="images/sunflowers-mori.JPG" alt="sunflowers" class="photo">
+                    <img id="f" src="images/lights-mori.JPG" alt="digital lights" class="photo"> 
                 </figure>
             </div>
-            <div>
+            <div class="three">
+            <a name="three"></a>
                 <h2>Day Three</h2>
                      <p>
                     "On Day Three, we took the bullet train to Kyoto. Kyoto is about a two hour train ride away from Tokyo.
@@ -62,12 +86,13 @@
                     to make eye contact or try to touch them."
                     </p>
                  <figure>
-                     <img src="images/bamboo-forest.JPG" alt="bamboo forest">
-                    <img src="images/monkey-park.JPG" alt="monkeys">
+                     <img id="g" src="images/bamboo-forest.JPG" alt="bamboo forest" class="photo">
+                    <img id="h" src="images/monkey-park.JPG" alt="monkeys" class="photo">
                     <video src="videos/monkey-park.MOV" controls></video>
                 </figure>
             </div>
-            <div>
+            <div class="four">
+            <a name="four"></a>
                 <h2>Day Four</h2>
                      <p>
                     "Day Four we spent some more time in Tokyo. I went to an owl cafe. The only thing on the menu was owls. We
@@ -78,17 +103,17 @@
                     night, I met up with friends to do my favorite activity: Dancing! I even missed the last train home because of it. "
                     </p>
                 <figure>
-                    <img src="images/owl-cafe.JPG" alt="small owl">
-                    <img src="images/akihabara.JPG" alt="colorful buildings">
-                    <img src="images/little-statues.JPG" alt="little character statues">
+                    <img id="i" src="images/owl-cafe.JPG" alt="small owl" class="photo">
+                    <img id="j" src="images/akihabara.JPG" alt="colorful buildings" class="photo">
+                    <img id="k" src="images/little-statues.JPG" alt="little character statues" class="photo">
                     <video src="videos/Dancing-tokyo.MOV" controls></video>            
                 </figure>
-            </div>
+            </div class="outro">
             <h2>That's it for Now! Updates to Come!</h2>
         </main>
 
     </body>
     <footer>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <p>&copy Kaycee Williams 2019</p>
     </footer>
 </html>
