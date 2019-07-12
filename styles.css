@@ -128,5 +128,8 @@ Video{
     align-content: center;
 }
 p{
-    text-align: center
+    text-align: center;
+}
+article{
+    text-align: center;
 }
